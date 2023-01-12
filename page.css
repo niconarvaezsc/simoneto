@@ -1,31 +1,57 @@
 .nav-enlace{
-    display: inline-block;
+    /*  display: inline-block;*/ 
     background: yellow;
     color: black;
-    padding: 10px 30px;
+    /*padding: 10px 30px; */
     text-decoration: none;
 }
 .nav-enlace:hover{
     background: goldenrod ;
 }
-nav{
-    background: grey;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    
-}
+
 .nav-boton{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     background: goldenrod;
     color: black;
     padding: 10px 0;
     border: 2px solid #fff;
     display: none;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.imageConteiner{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.buttonContainer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 10px;
+}
+.buttonContainer a{
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+}
+.buttonMenuContainer{
+    display: flex;
+    
+}
+
+.logo{
+    border-radius: 50%;
 }
 
 @media (max-width: 600px){
     nav{
-        background: black;
         flex-direction: column;
     }
     .nav-enlace{
